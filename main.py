@@ -17,11 +17,11 @@ MONGO_URL = os.environ.get("MONGO_URL", None)
 DATABASE_NAME = os.environ.get("DATABASE_NAME") 
 BOT_USERNAME = os.environ.get("BOT_USERNAME") 
 UPDATE_CHNL = os.environ.get("UPDATE_CHNL")
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME")
-SUPPORT_GRP = os.environ.get("SUPPORT_GRP")
+OWNER_USERNAME = os.environ.get("@ITS_MEE_DEVIL_NJ")
+SUPPORT_GRP = os.environ.get("@ROMEOBOT_OP")
 BOT_NAME = os.environ.get("BOT_NAME")
 ADMINS = os.environ.get("ADMINS")
-START_IMG1 = os.environ.get("START_IMG1")
+START_IMG1 = os.environ.get("https://graph.org//file/99bf85c694f6fb5d258e0.jpg")
 START_IMG2 = os.environ.get("START_IMG2", None)
 START_IMG3 = os.environ.get("START_IMG3", None)
 START_IMG4 = os.environ.get("START_IMG4", None)
@@ -73,7 +73,7 @@ PHOTO = [
 ]
 
 EMOJIOS = [ 
-      "⚡",
+      "😈",
       "⚡",
 ]
       
@@ -107,7 +107,7 @@ async def restart(client, m: Message):
     await asyncio.sleep(0.1)
     await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐞𝐝.✓")
     await asyncio.sleep(0.2)
-    await accha.edit("🥵𝙽𝙾𝚆 𝙲𝙾𝙼𝙴 𝙷𝙴𝚁𝙴 👉 @TG_FRIENDSS🥀 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙶𝙸𝚁𝙻𝙵𝚁𝙸𝙴𝙽𝙳🌹💋")
+    await accha.edit("𝙸 𝙰𝙼 𝙰𝙻𝙸𝚅𝙴 𝙱𝙰𝙱𝚈 ❤ 𝙵𝙾𝚁 𝙾𝚃𝙷𝙴𝚁 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙸𝙾𝙽 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙼𝚈 𝙼𝙰𝚂𝚃𝙴𝚁 @ITS_MEE_DEVIL_NJ")
        
 @bot.on_message(
     filters.command(["chatbot off", f"chatbot@{BOT_USERNAME} off"], prefixes=["/", ".", "?", "-"])
