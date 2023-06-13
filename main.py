@@ -10,10 +10,10 @@ import time
 from datetime import datetime
 #from database.users_chats_db import db
 
-API_ID = os.environ.get("API_ID", None) 
-API_HASH = os.environ.get("API_HASH", None) 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
-MONGO_URL = os.environ.get("MONGO_URL", None)
+API_ID = os.environ.get("API_ID", "12191982") 
+API_HASH = os.environ.get("API_HASH", "8def728132745732e228abf7db3444cd") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5677591277:AAFiNzR8P4l_h3Tyr941LGI1jUeGF2Mf1MY") 
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://Kingnj:Kingnj@cluster0.bdovojw.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = os.environ.get("DATABASE_NAME") 
 BOT_USERNAME = os.environ.get("BOT_USERNAME") 
 UPDATE_CHNL = os.environ.get("UPDATE_CHNL")
